@@ -40,5 +40,19 @@ button {
 
 button:disabled {
   cursor: default;
-  color: rgb(119, 119, 119);
+  background-color: rgb(119, 119, 119);
+  box-shadow: none;
+}
+
+h1 {
+
+  color: #FF3482;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    justify-content: start;
+    gap: 0;
+  }
 }
